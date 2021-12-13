@@ -58,8 +58,13 @@ set the root route in config/routes.rb
 rails g devise:views
 ```
 
-## Setting up the user model
+## Setting up the user(Accounts) model
 ```ruby 
 rails g devise Account
 rails db:migrate
+```
+
+## Setting up the public controller 
+```ruby 
+rails g controller public
 ```
