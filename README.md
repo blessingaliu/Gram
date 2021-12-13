@@ -53,4 +53,13 @@ config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 <p id="notice"><%= notice %></p>
 
 # Do the same for app/views/comments/show.html.erb. These lines are not necessary as we’ve put the notice in the app/views/layouts/application.html.erb file.
+
+set the root route in config/routes.rb
+rails g devise:views
+```
+
+## Setting up the user model
+```ruby 
+rails g devise Account
+rails db:migrate
 ```
