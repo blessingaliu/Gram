@@ -13,4 +13,9 @@ rails new gram -T -d postgresql
 bundle install
 rails generate rspec:install
 ```
-# test
+
+## Setup database
+```ruby 
+rails db:setup
+bin/rails db:migrate
+```
