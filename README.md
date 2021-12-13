@@ -68,3 +68,9 @@ rails db:migrate
 ```ruby 
 rails g controller public
 ```
+
+# Webpacker can't find application error
+```ruby 
+rails webpacker:compile
+[How to solve error on webpage](https://stackoverflow.com/questions/58270161/webpacker-cant-find-application)
+```
